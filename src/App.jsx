@@ -31,7 +31,7 @@ const App = () => {
       </section>
       <section>
         {isLoading ? (
-          <h2>Please wait while we're generating movies</h2>
+          <h2>Please wait while we are generating movies</h2>
         ) : (
           <MoviesList movies={movies} />
         )}
